@@ -1,0 +1,180 @@
+
+
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(236, 118, 22);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent {
+    display: flex;
+    width: 700px;
+    /* height: 400px; */
+    font-family: sans-serif;
+}
+.parent .child-1 {
+    background-color: white;
+    width: 50%;
+    padding: 20px 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.parent .child-1 .radio {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 50px;
+}
+.parent .child-1 .radio input {
+    margin: 0;
+    width: auto;
+}
+.parent .child-1 h2 {
+    color: rgba(156, 66, 28, 0.914);
+}
+.parent  input , select {
+    padding: 10px;
+    margin-top: 15px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(193, 189, 189);
+    width: 100%;
+    outline: none;
+}
+.parent  select {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(193, 189, 189);
+}
+::placeholder {
+    color: gray;
+}
+.parent .child-1 .name {
+    display: flex;
+    gap: 20px;
+} 
+
+.parent .child-1 select {
+    color: rgb(60, 58, 58);
+}
+.parent .child-2 {
+    background-color: rgba(156, 66, 28, 0.914);
+    width: 50%;
+    padding: 20px 30px;
+    color: rgba(255, 255, 255, 0.927);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.parent .child-2 .check {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.parent .child-2 .check p {
+    font-size: 12.5px;
+}
+.parent .child-2 .check span {
+   text-decoration: underline yellow;
+   font-size: 13px;
+} 
+.parent .child-2 .check input {
+    width: 20px;
+    margin: 0;
+}
+.parent .child-2 button {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.parent .child-2 img {
+    width: 20px;
+}
+.parent .child-2 input  {
+    color: white;
+}
+.parent .child-2 ::placeholder {
+    color: white;
+}
+
+
+/* .parent .child-2 input ,select {
+    padding: 10px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.927);
+}
+.parent .child-2 .zip ,.cn {
+    display: flex;
+    gap: 12px;
+}
+.parent .child-2 .zip input , .cn input:first-child{
+    width: 40%;
+}
+.parent .child-2 button {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.parent .child-2 .check p {
+    font-size: 12px;
+}
+.parent .child-2 .check {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    gap: 10px;
+}
+.parent .child-2 .check input {
+   margin: 0;
+   width: auto;
+
+}
+.parent .child-2 .check span {
+    text-decoration: underline;
+}
+::placeholder {
+    color: rgb(187, 187, 187);
+    
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+    background: white;
+    color:black;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+    top: -5px;
+    outline: 1px solid red;
+}
+
+input[type="checkbox"]:checked {
+    background-color: blueviolet;
+
+}
+
+
+   
+*/

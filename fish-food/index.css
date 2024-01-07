@@ -1,0 +1,10 @@
+
+body {
+    margin: 0;
+}
+div {
+
+    background: url(../images/Green\ Brown\ Red\ Minimalist\ Seafood\ Menu\ \(1\).jpg);
+    background-size: cover;
+    height: 100vh;
+}
